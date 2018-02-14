@@ -4,160 +4,86 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <style media="screen">
-      .dropdown-toggle::after{
-        display:none;
-      }
-      /* .dropdown:hover .dropdown-menu {
-    display: block !important;
-     } */
-     body {
-       background: #f3f3f3;
-       color: #555;
-       font-family: montserrat;
-     }
-
-    .navbar-altered {
-      padding-bottom: 0px;
-      background: #fff;
-    }
-    .nav-underline {
-      border-bottom: 4px solid #fff;
-      border-radius: 0;
-      padding: 1rem;
-    }
-    .nav-underline:hover {
-      border-bottom: 4px solid #ddd;
-      border-radius: 0;
-    }
-    .nav-underline:active, .nav-underline:focus, .nav-underline:focus-within {
-      border-bottom: 4px solid #007bff;
-      border-radius: 0;
-      transition: all 0.5s ease;
-    }
-    .dropdown-menu {
-      border-radius: 0;
-      border-color: #f8f9fa;
-      margin-top: 0;
-      padding-top: 3em;
-      box-shadow: 0px 5px 10px #ddd;
-    }
-    .dropdown-item {
-      color: #555;
-      position: relative;
-    }
-    .dropdown-toggle {
-      display: block;
-    }
-    a, a:hover {
-      text-decoration: none;
-      color: #555;
-      font-weight: 400;
-    }
-    .dropdown-item span{ /*CSS for enlarged image*/
-position: absolute;
-padding: 5px;
-right: 0px;
-visibility: hidden;
-color: black;
-text-decoration: none;
-background: #fff;
-border: 1px #ddd solid;
-width: 30%;
-}
-.dropdown-item span img{ /*CSS for enlarged image*/
-width: 100%;
-}
-
-.dropdown-item:hover span{ /*CSS for enlarged image*/
-visibility: visible;
-top: -20px;
-right: 50px; /*position where enlarged image should offset horizontally */
-z-index: 50;
-}
-
-
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <title>DESKTOP</title>
   </head>
+
   <body>
-    <div style="width:100%;background:#fff;">
-      <header style="width:100%;background:#007bff;height:100px">
-      </header>
-    <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-altered">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-fill" id="navbarSupportedContent">
-        <div class="nav-item nav-link nav-underline parent">
-          <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img src="img/flags-icon.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-            Flags
-          </a>
-            <div class="dropdown-menu row" style="right:0;left:0">
-              <div class="col-6" style="float:left">
-                <p class="dropdown-item"><b>Flags</b></p>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Feather<span><img src="img/placholder.svg" /></span></a>
-                <a class="dropdown-item" href="#">Teardrop<span><img src="https://picsum.photos/200/200" /></span></a>
-                <a class="dropdown-item" href="#">Flagtrax<span><img src="http://via.placeholder.com/200x200" /></span></a>
-                <a class="dropdown-item" href="#">Pole Flag<span><img src="img/placholder.svg" /></span></a>
-                <a class="dropdown-item" href="#">Bunting<span><img src="https://picsum.photos/200/200" /></span></a>
-                <a class="dropdown-item" href="#">...</a>
+    <div>
+      <header></header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-altered">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-fill" id="navbarSupportedContent">
+            <div class="nav-item nav-link nav-underline parent">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/flags-icon.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                Flags
+              </a>
+              <div class="dropdown-menu row" style="right:0;left:0">
+                <div class="col-6" style="float:left">
+                  <p class="dropdown-item"><b>Flags</b></p>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Feather<span><img src="img/placholder.svg" /></span></a>
+                    <a class="dropdown-item" href="#">Teardrop<span><img src="https://picsum.photos/200/200" /></span></a>
+                    <a class="dropdown-item" href="#">Flagtrax<span><img src="http://via.placeholder.com/200x200" /></span></a>
+                    <a class="dropdown-item" href="#">Pole Flag<span><img src="img/placholder.svg" /></span></a>
+                    <a class="dropdown-item" href="#">Bunting<span><img src="https://picsum.photos/200/200" /></span></a>
+                    <a class="dropdown-item" href="#">...</a>
+                  </div>
+                  <div class="col-6" style="float:left">
+                    <p class="dropdown-item"><b>Accessories</b></p>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Water Base<span><img src="http://via.placeholder.com/200x200" /></span></a>
+                    <a class="dropdown-item" href="#">Ground Spike<span><img src="img/placholder.svg" /></span></a>
+                    <a class="dropdown-item" href="#">...</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-6" style="float:left">
-                <p class="dropdown-item"><b>Accessories</b></p>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Water Base<span><img src="http://via.placeholder.com/200x200" /></span></a>
-                <a class="dropdown-item" href="#">Ground Spike<span><img src="img/placholder.svg" /></span></a>
-                <a class="dropdown-item" href="#">...</a>
+              <div class="nav-item nav-link nav-underline parent">
+                <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/banners-icon.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                  Banners
+                </a>
+                  <div class="dropdown-menu" style="right:0;left:0">
+                    <div class="col-6" style="float:left">
+                      <p class="dropdown-item"><b>Banners</b></p>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Finished PVC Banner<span><img src="img/placholder.svg" /></span></a>
+                      <a class="dropdown-item" href="#">Fabric Backdrops<span><img src="https://picsum.photos/200/200" /></span</a>
+                      <a class="dropdown-item" href="#">...</a>
+                    </div>
+                    <div class="col-6" style="float:left">
+                      <p class="dropdown-item"><b>Accessories</b></p>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Eyelets<span><img src="http://via.placeholder.com/200x200" /></span></a>
+                      <a class="dropdown-item" href="#">...</a>
+                    </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="nav-item nav-link nav-underline parent">
-            <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              <img src="img/banners-icon.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-              Banners
-            </a>
+            <div class="nav-item nav-link nav-underline parent">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                Other 2
+              </a>
               <div class="dropdown-menu" style="right:0;left:0">
-                <div class="col-6" style="float:left">
-                  <p class="dropdown-item"><b>Banners</b></p>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Finished PVC Banner<span><img src="img/placholder.svg" /></span></a>
-                  <a class="dropdown-item" href="#">Fabric Backdrops<span><img src="https://picsum.photos/200/200" /></span</a>
-                  <a class="dropdown-item" href="#">...</a>
-                </div>
-                <div class="col-6" style="float:left">
-                  <p class="dropdown-item"><b>Accessories</b></p>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Eyelets<span><img src="http://via.placeholder.com/200x200" /></span></a>
-                  <a class="dropdown-item" href="#">...</a>
-                </div>
+                <a class="dropdown-item" href="#">2.1</a>
+                <a class="dropdown-item" href="#">2.2</a>
+                <a class="dropdown-item" href="#">2.3</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">2.4</a>
               </div>
-          </div>
-        <div class="nav-item nav-link nav-underline parent">
-          <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-            Other 2
-          </a>
-            <div class="dropdown-menu" style="right:0;left:0">
-              <a class="dropdown-item" href="#">2.1</a>
-              <a class="dropdown-item" href="#">2.2</a>
-              <a class="dropdown-item" href="#">2.3</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">2.4</a>
             </div>
-          </div>
-          <div class="nav-item nav-link nav-underline parent">
-            <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-              Other 3
-            </a>
+            <div class="nav-item nav-link nav-underline parent">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                Other 3
+              </a>
               <div class="dropdown-menu" style="right:0;left:0">
                 <a class="dropdown-item" href="#">3.1</a>
                 <a class="dropdown-item" href="#">3.2</a>
@@ -165,12 +91,12 @@ z-index: 50;
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">3.4</a>
               </div>
-          </div>
-          <div class="nav-item nav-link nav-underline parent">
-            <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-              Other 4
-            </a>
+            </div>
+            <div class="nav-item nav-link nav-underline parent">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                Other 4
+              </a>
               <div class="dropdown-menu" style="right:0;left:0">
                 <a class="dropdown-item" href="#">4.1</a>
                 <a class="dropdown-item" href="#">4.2</a>
@@ -178,12 +104,12 @@ z-index: 50;
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">4.4</a>
               </div>
-          </div>
-          <div class="nav-item nav-link nav-underline parent">
-            <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
-              Other 5
-            </a>
+            </div>
+            <div class="nav-item nav-link nav-underline parent">
+              <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <img src="img/placholder.svg" alt="" class="img-rounded center-block" style="width:40%"><br/>
+                Other 5
+              </a>
               <div class="dropdown-menu" style="right:0;left:0">
                 <a class="dropdown-item" href="#">5.1</a>
                 <a class="dropdown-item" href="#">5.2</a>
@@ -191,21 +117,19 @@ z-index: 50;
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">5.4</a>
               </div>
+            </div>
           </div>
-
-        </div>
-      </nav>
-
-
+        </nav>
+      </div>
     </div>
-  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-hover-dropdown.min.js"></script>
+    <!-- Custom JS -->
     <script src="js/script.js"></script>
 
   </body>
