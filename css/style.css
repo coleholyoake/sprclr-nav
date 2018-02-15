@@ -7,6 +7,7 @@ body { /*General Styling*/
  background: #f3f3f3;
  color: #555;
  font-family: montserrat;
+ font-size: 13px !important;
 }
 .dropdown-toggle::after{
   display:none;
@@ -35,6 +36,7 @@ border-color: #f8f9fa;
 margin-top: 0;
 padding-top: 3em;
 box-shadow: 0px 5px 10px #ddd;
+font-size: 13px !important;
 }
 .dropdown-item {
 color: #555;
@@ -47,6 +49,7 @@ a, a:hover {
 text-decoration: none;
 color: #555;
 font-weight: 400;
+font-size: 13px !important;
 }
 .dropdown-item span{ /*CSS for enlarged image*/
 position: absolute;
